@@ -158,14 +158,18 @@
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="src\HelloRectangle.cpp" />
     <ClCompile Include="src\HelloTriangle.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Resources\shader\defult.vert" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shader\default.frag" />
+    <None Include="Resources\shader\texture_frag.frag" />
+    <None Include="Resources\shader\texture_vs.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Resources\shader\stb_image.h" />
     <ClInclude Include="src\shader_s.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -24,15 +24,23 @@
     <ClCompile Include="src\HelloRectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Resources\shader\defult.vert" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shader\default.frag" />
+    <None Include="Resources\shader\texture_vs.vs" />
+    <None Include="Resources\shader\texture_frag.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shader_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\shader\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
