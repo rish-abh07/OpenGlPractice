@@ -35,12 +35,16 @@
     <None Include="Resources\shader\default.frag" />
     <None Include="Resources\shader\texture_vs.vs" />
     <None Include="Resources\shader\texture_frag.frag" />
+    <None Include="Resources\shader\3d_projection.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shader_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Resources\shader\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader_m.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
