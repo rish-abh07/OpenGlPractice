@@ -33,6 +33,9 @@
     <ClCompile Include="src\Move_Around_with_Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Color_practicw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Resources\shader\defult.vert" />
@@ -42,6 +45,10 @@
     <None Include="Resources\shader\texture_vs.vs" />
     <None Include="Resources\shader\texture_frag.frag" />
     <None Include="Resources\shader\3d_projection.vs" />
+    <None Include="Resources\shader\color.vs" />
+    <None Include="Resources\shader\colore.frag" />
+    <None Include="Resources\shader\light_cube.vs" />
+    <None Include="Resources\shader\light_cube.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\shader_s.h">
@@ -51,6 +58,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

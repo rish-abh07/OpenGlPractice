@@ -157,6 +157,7 @@
   <ItemGroup>
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Color_practicw.cpp" />
     <ClCompile Include="src\HelloRectangle.cpp" />
     <ClCompile Include="src\HelloTriangle.cpp" />
     <ClCompile Include="src\Move_Around_with_Camera.cpp" />
@@ -167,12 +168,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\shader\3d_projection.vs" />
+    <None Include="Resources\shader\color.vs" />
+    <None Include="Resources\shader\colore.frag" />
     <None Include="Resources\shader\default.frag" />
+    <None Include="Resources\shader\light_cube.frag" />
+    <None Include="Resources\shader\light_cube.vs" />
     <None Include="Resources\shader\texture_frag.frag" />
     <None Include="Resources\shader\texture_vs.vs" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resources\shader\stb_image.h" />
+    <ClInclude Include="src\camera.h" />
     <ClInclude Include="src\shader_m.h" />
     <ClInclude Include="src\shader_s.h" />
   </ItemGroup>
