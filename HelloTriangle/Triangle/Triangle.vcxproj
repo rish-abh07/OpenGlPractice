@@ -160,6 +160,7 @@
     <ClCompile Include="src\Color_practicw.cpp" />
     <ClCompile Include="src\HelloRectangle.cpp" />
     <ClCompile Include="src\HelloTriangle.cpp" />
+    <ClCompile Include="src\Material_Practice.cpp" />
     <ClCompile Include="src\Move_Around_with_Camera.cpp" />
     <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
